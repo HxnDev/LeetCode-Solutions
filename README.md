@@ -25,7 +25,9 @@ This folder's name should be the Programming Language that you used for your sol
 - C++
 
 # Table of Contents:
-
+- [Largest Contiguous Subarray Problem](https://github.com/HxnDev/LeetCode-Solutions/tree/main/Largest%20Contiguous%20Subarray%20Problem)
+- [Text Justification Problem](https://github.com/HxnDev/LeetCode-Solutions/tree/main/Text%20Justification%20Problem)
+- [Two Sum Problem](https://github.com/HxnDev/LeetCode-Solutions/tree/main/Two%20Sum%20Problem)
 
 # 📫 Contact Me: 
 <p align="center">
