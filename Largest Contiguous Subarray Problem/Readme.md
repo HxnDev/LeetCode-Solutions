@@ -1,4 +1,4 @@
-# Two Sum Problem
+# Largest Contiguous Subarray Problem
 
 Given an array of integers *nums* and an integer *target*, return the **indices of the two numbers such that they add upto the *target***.
 
