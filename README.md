@@ -16,8 +16,15 @@ The first folder {Question Name} must be named on the question. Keep in mind to 
 
 This folder will consist of the Readme.md file. This Readme.md file will have the description of the question including the expected outputs. You can also add your test case accuracies (but not required). You can copy the Readme.md template from any of the existing folders and make changes to that. 
 
-This folder will then have a sub-folder {Programming Language}.
+This folder will then have a sub-folder {Programming Language}. It can also have mutiple sub folders
 
 ## Folder 2 Contents:
 
+This folder's name should be the Programming Language that you used for your solutions. This folder will consist of the solution file. The examples of folder names are as follows:
+- Python
+- C++
 
+# Table of Contents:
+
+
+# Contact Me:
