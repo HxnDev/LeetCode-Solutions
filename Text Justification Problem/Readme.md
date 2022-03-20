@@ -8,28 +8,45 @@ Extra spaces between words should be distributed as evenly as possible. If the n
 
 For the last line of text, it should be left justified and no **extra** space is inserted between words.
 
+### Note:
+
+- A word is defined as characyer sequence consisitng of non-space characters only.
+- Each word's length is guaranteed to be greater than 0 and not exceed *maxWidth*
+- The input array *words* contains atleast one word.
+
 ### Example 1:
 ```
-INPUT: nums = [7,7,11,15], target = 9
-OUTPUT: [0,1]
-EXPLANATION: Because nums[0] + nums[1] == 9, so we return [0,1].
+INPUT: words = ["This", "is", "an", "example", "of", "text", "justification"], maxWidth = 16
+OUTPUT: 
+[
+  "This    is    an",
+  "example  of text",
+  "justification.  "
+]
 ```
 
 ### Example 2:
 ```
-INPUT: nums = [3,2,4], target = 6
-OUTPUT: [1,2]
+INPUT: words = ["What", "must", "be", "acknowledgement", "shall", "be"], maxWidth = 16
+OUTPUT: 
+[
+  "What   must    be",
+  "acknowledgement  ",
+  "shall be.        "
+]
 ```
 
 ### Example 3:
 ```
-INPUT: nums = [3,3], target = 6
-OUTPUT: [0,1]
+INPUT: words = ["Science", "is", "what", "we", "understand", "well", "enough", "to", "explain", "to", "a", "computer.", "Art", "is", "everything", "else", "we", "do"], maxWidth = 20
+OUTPUT: 
+[
+  "Science  is  what we",
+  "understand      well",
+  "enough to explain to",
+  "a  computer.  Art is",
+  "everything  else  we",
+  "do                  "
+]
 ```
 
-### Constraints:
-
-- ``` 2 <= nums.length <= 10^4 ```
-- ``` -10^9 <= nums[i] <= 10^9 ```
-- ``` -10^p <= target <= 10^9 ```
-- **Only one valid answer exists**
