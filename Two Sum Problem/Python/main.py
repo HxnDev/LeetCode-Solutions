@@ -12,6 +12,6 @@ class Solution(object):
                 result.append(index_map[difference])
                 break
             else:
-                index_map[n] = if
+                index_map[n] = i
 
         return sorted(result)
