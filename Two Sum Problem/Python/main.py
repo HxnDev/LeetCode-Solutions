@@ -5,7 +5,7 @@ class Solution(object):
         index_map = {}
 
         for i, n in enumerate(nums):
-            difference = target - nums
+            difference = target - n
 
             if difference in index_map:
                 result.append(i)
