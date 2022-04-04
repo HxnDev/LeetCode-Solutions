@@ -23,6 +23,7 @@ This folder will then have a sub-folder {Programming Language}. It can also have
 This folder's name should be the Programming Language that you used for your solutions. This folder will consist of the solution file. The examples of folder names are as follows:
 - Python
 - C++
+- Java 
 
 # Table of Contents:
 - [Largest Contiguous Subarray Problem](https://github.com/HxnDev/LeetCode-Solutions/tree/main/Largest%20Contiguous%20Subarray%20Problem)
